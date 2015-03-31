@@ -1,15 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 html, body {
     margin: 0; 
     height: 100%; 
     width: 100%; 
     padding: 0;
-    font: sans-serif; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header {
     width: 100%; 
     display: inline-block;
-    background-color: #2980b9
+    background-color: #2980b9;
+    font-family: 'Open Sans', sans-serif;
+    height: 160px; 
 }
 
 .parent {
@@ -18,4 +22,25 @@ html, body {
     padding: 0; 
     margin: 0; 
     display: inline-block;
+}
+
+.mainContent {
+    width: 60%; 
+    padding: 0; 
+    margin:0; 
+    background-color: #ecf0f1;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100%;
+    min-height: 600px; 
+}
+
+.footer {
+    width: 60%; 
+    padding: 0; 
+    margin:0; 
+    background-color: #e74c3c;
+    margin-left: auto; 
+    margin-right: auto;
+    height: 100px;
 }
